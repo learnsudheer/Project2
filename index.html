@@ -46,14 +46,20 @@
     <!-- SLIDES -->
     <slide class="" id="slide-1" style="background:;">
   <hgroup>
-    <h2>Read-And-Delete</h2>
+    <h2>read me:</h2>
   </hgroup>
   <article data-timings="">
-    <ol>
-<li>Edit YAML front matter</li>
-<li>Write using R Markdown</li>
-<li>Use an empty line followed by three dashes to separate slides!</li>
-</ol>
+    <p>There are 5 slides in this deck, please go through all the slides by clicking left/right arrows.</p>
+
+<p>Slide 1: Running R code with &#39;echo=FALSE&#39;</p>
+
+<p>Slide 2, Running R code with &#39;echo=TRUE&#39;</p>
+
+<p>Slide 3, Running R code with &#39;echo=TRUE, result = hide&#39;</p>
+
+<p>Slide 4, code that doesnt evaluate</p>
+
+<p>Slide 5, Sample Scatter Plot</p>
 
   </article>
   <!-- Presenter Notes -->
@@ -61,10 +67,14 @@
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Slide 2</h2>
+    <h2>Slide 1, Running R code with &#39;echo=FALSE&#39;</h2>
   </hgroup>
   <article data-timings="">
-    <p>Sudheer Kumar Battula</p>
+    <pre><code>## [1] 55
+</code></pre>
+
+<pre><code>## [1] 9.167
+</code></pre>
 
   </article>
   <!-- Presenter Notes -->
@@ -72,17 +82,7 @@
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Slide 3</h2>
-  </hgroup>
-  <article data-timings="">
-    
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="class" id="id" style="background:;">
-  <hgroup>
-    <h2>Slide 4</h2>
+    <h2>Slide 2, Running R code with &#39;echo=TRUE&#39;</h2>
   </hgroup>
   <article data-timings="">
     <pre><code class="r">sum(1 : 10)
@@ -103,10 +103,50 @@
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Slide 5</h2>
+    <h2>Slide 3, Running R code with &#39;echo=TRUE, result = hide&#39;</h2>
   </hgroup>
   <article data-timings="">
-    
+    <pre><code class="r">sum(1 : 10)
+10*(11)/12
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Slide 4, code that doesnt evaluate</h2>
+  </hgroup>
+  <article data-timings="">
+    <pre><code>1 + 2 + 3 
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Slide 5, Sample Scatter Plot</h2>
+  </hgroup>
+  <article data-timings="">
+    <pre><code class="r">attach(mtcars)
+</code></pre>
+
+<pre><code>## The following objects are masked from mtcars (position 3):
+## 
+##     am, carb, cyl, disp, drat, gear, hp, mpg, qsec, vs, wt
+</code></pre>
+
+<pre><code class="r">plot(wt, mpg, main=&quot;Scatterplot Example&quot;, 
+     xlab=&quot;Car Weight &quot;, ylab=&quot;Miles Per Gallon &quot;, pch=19)
+</code></pre>
+
+<p><img src="assets/fig/unnamed-chunk-4.png" alt="plot of chunk unnamed-chunk-4"> </p>
+
+<p><img src="figure/simple-plot.png" alt="plot of chunk simple-plot"> </p>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -117,32 +157,38 @@
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='Read-And-Delete'>
+        data-slide=1 title='read me:'>
          1
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Slide 2'>
+        data-slide=2 title='Slide 1, Running R code with &#39;echo=FALSE&#39;'>
          2
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='Slide 3'>
+        data-slide=3 title='Slide 2, Running R code with &#39;echo=TRUE&#39;'>
          3
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='Slide 4'>
+        data-slide=4 title='Slide 3, Running R code with &#39;echo=TRUE, result = hide&#39;'>
          4
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=5 title='Slide 5'>
+        data-slide=5 title='Slide 4, code that doesnt evaluate'>
          5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Slide 5, Sample Scatter Plot'>
+         6
       </a>
     </li>
   </ul>
